@@ -12,7 +12,7 @@ Template repository for TypeScript libraries.
 ✂️---
 _Cut here_
 
-1. Fork / Clone / Use as Template this repository to create your own.
+1. [Use this repository as a template](https://github.com/47ng/typescript-library-starter/generate) to create your own.
 2. Replace all mentions of `typescript-library-starter` with the name
    of your package.
 3. Setup Travis CI by adding an NPM deploy token and a Slack channel token:
