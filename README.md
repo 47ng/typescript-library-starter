@@ -1,6 +1,6 @@
 # `typescript-library-starter`
 
-[![NPM](https://img.shields.io/npm/v/@47ng/typescript-library-starter?color=red)](https://www.npmjs.com/package/codec)
+[![NPM](https://img.shields.io/npm/v/typescript-library-starter?color=red)](https://www.npmjs.com/package/typescript-library-starter)
 [![MIT License](https://img.shields.io/github/license/47ng/typescript-library-starter.svg?color=blue)](https://github.com/47ng/typescript-library-starter/blob/master/LICENSE)
 [![Travis CI Build](https://img.shields.io/travis/com/47ng/typescript-library-starter.svg)](https://travis-ci.com/47ng/typescript-library-starter)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=47ng/typescript-library-starter)](https://dependabot.com)
