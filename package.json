@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Template repository for TypeScript libraries",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "author": {
     "name": "François Best",
