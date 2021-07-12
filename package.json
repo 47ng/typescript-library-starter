@@ -31,7 +31,7 @@
     "ci": "run-s test build"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.23",
+    "@types/jest": "^26.0.24",
     "@types/node": "^16.3.1",
     "husky": "^7.0.1",
     "jest": "^25.5.4",
