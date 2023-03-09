@@ -1,46 +1,30 @@
-# `typescript-library-starter`
+<h1 align="center"><code>@47ng/package-name</code></h1>
 
-[![NPM](https://img.shields.io/npm/v/typescript-library-starter?color=red)](https://www.npmjs.com/package/typescript-library-starter)
-[![MIT License](https://img.shields.io/github/license/47ng/typescript-library-starter.svg?color=blue)](https://github.com/47ng/typescript-library-starter/blob/master/LICENSE)
-[![Travis CI Build](https://img.shields.io/travis/com/47ng/typescript-library-starter.svg)](https://travis-ci.com/47ng/typescript-library-starter)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=47ng/typescript-library-starter)](https://dependabot.com)
-[![Average issue resolution time](https://isitmaintained.com/badge/resolution/47ng/typescript-library-starter.svg)](https://isitmaintained.com/project/47ng/typescript-library-starter)
-[![Number of open issues](https://isitmaintained.com/badge/open/47ng/typescript-library-starter.svg)](https://isitmaintained.com/project/47ng/typescript-library-starter)
+<div align="center">
 
-Template repository for TypeScript libraries.
+[![NPM](https://img.shields.io/npm/v/@47ng/package-name?color=red)](https://www.npmjs.com/package/@47ng/package-name)
+[![MIT License](https://img.shields.io/github/license/47ng/package-name.svg?color=blue)](https://github.com/47ng/package-name/blob/next/LICENSE)
+[![CI/CD](https://github.com/47ng/package-name/workflows/CI%2FCD/badge.svg?branch=next)](https://github.com/47ng/package-name/actions)
+[![Coverage Status](https://coveralls.io/repos/github/47ng/package-name/badge.svg?branch=next)](https://coveralls.io/github/47ng/package-name?branch=next)
+
+</div>
+
+<p align="center">
+  Template repository for TypeScript libraries.
+</p>
 
 ## Installation
 
-✂️---
-_Cut here_
-
-1. [Use this repository as a template](https://github.com/47ng/typescript-library-starter/generate) to create your own.
-2. Replace all mentions of `typescript-library-starter` with the name
-   of your package.
-3. Setup Travis CI by adding an NPM deploy token and a Slack channel token:
-
-```zsh
-# Copy your NPM deploy token to clipboard, then:
-$ travis encrypt $(pbpaste) --add deploy.api_key --com
-
-# Copy your Slack channel token to clipboard, then:
-$ travis encrypt $(pbpaste) --add notifications.slack.rooms --com
-```
-
---- ✂️
-
 ```shell
-$ yarn add typescript-library-starter
-# or
-$ npm i typescript-library-starter
+pnpm add @47ng/package-name
+yarn add @47ng/package-name
+npm i @47ng/package-name
 ```
 
 ## Usage
 
-## Configuration
-
 ## License
 
-[MIT](https://github.com/47ng/typescript-library-starter/blob/master/LICENSE) - Made with ❤️ by [François Best](https://francoisbest.com)
+[MIT](https://github.com/47ng/typescript-library-starter/blob/next/LICENSE) - Made with ❤️ by [François Best](https://francoisbest.com)
 
 Using this package at work ? [Sponsor me](https://github.com/sponsors/franky47) to help with support and maintenance.

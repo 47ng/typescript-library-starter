@@ -1,7 +1,8 @@
-import lib from './index'
+import { describe, expect, test } from 'vitest'
+import { hello } from './index.js'
 
-describe('typescript-library-starter', () => {
+describe('package-name', () => {
   test('testing works', () => {
-    expect(lib).toBe('Hello, World !')
+    expect(hello).toBe('world')
   })
 })

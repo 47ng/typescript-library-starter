@@ -1,1 +1,1 @@
-export default 'Hello, World !'
+export const hello = 'world'

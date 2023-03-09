@@ -1,34 +1,31 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "baseUrl": ".",
-    "target": "es2018",
-    "module": "commonjs",
-    "lib": [],
-    "declaration": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "paths": { "*": ["types/*"] },
-
-    // Strict Type-Checking Options
+    // Type checking
     "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictPropertyInitialization": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
 
-    // Additional Checks
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
+    // Modules
+    "module": "ESNext",
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+    // Language & Environment
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
 
+    // Emit is disabled (typechecking only)
+    "noEmit": true,
+    "declaration": false,
+
+    // Interop
+    "allowJs": true,
+    "isolatedModules": true,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
 
-    // Experimental Options
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    // Misc
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true
   },
-  "exclude": ["./src/**/*.test.ts", "./dist", "./node_modules"]
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
