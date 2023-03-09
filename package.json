@@ -72,7 +72,7 @@
       "main",
       {
         "name": "next",
-        "channel": "beta",
+        "channel": "next",
         "prerelease": true
       }
     ]
