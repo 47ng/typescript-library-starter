@@ -1,11 +1,11 @@
 {
-  "name": "@47ng/package-name",
+  "name": "@47ng/typescript-library-starter",
   "version": "0.0.0-semantically-released",
   "description": "Template repository for TypeScript libraries",
   "license": "MIT",
   "author": {
     "name": "François Best",
-    "email": "npm.package-name@francoisbest.com",
+    "email": "npm.typescript-library-starter@francoisbest.com",
     "url": "https://francoisbest.com"
   },
   "repository": {
